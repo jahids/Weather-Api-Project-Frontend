@@ -12,22 +12,30 @@ body {
 header{
   margin: 50px;
 }
+li{
+  cursor: pointer;
+ 
+}
 
 .head{
   text-align: center;
 }
 
-
+#blog{
+  position: relative;
+}
 
 
 .suggestions {
   list-style: none;
   background-color: rgb(255, 255, 255);
-  /* margin-top: 10px; */
+ width: 92%;
+ max-height: 200px;
   border-radius: 20px;
- 
-  transition: width 2s;
-  /* height: 1px; */
+ position: absolute;
+ z-index: 1;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  
   overflow: auto;
  
 }
